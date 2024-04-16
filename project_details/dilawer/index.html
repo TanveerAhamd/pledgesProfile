@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="firstweb.css">
+</head>
+
+<body>
+    <!-- navegation bar -->
+  <nav class="bg-dark navbar navbar-dark navbar-expand-lg sticky-top text-white ">
+    <div class="container">
+      <div>
+        <a class="navbar-brand text-white text-decoration-none" href="#">DevFolio</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse justify-content-end navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              DROP DOWN lINK
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+              <li><a class="dropdown-item" href="#">DeepDrop Down ></a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <!-- HEADER SECTION -->
+  <header>
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="align-items-center col-12 d-flex flex-column justify-content-center text-white parallax">
+          <h1>I AM Muhammad Dilawar</h1>
+          <p id="typewriter"></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-3">
+    <div class="container">
+      <div class="p-5 my-5 bg-white border">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="g-0 p-3 row">
+                <div class="col-md-4">
+                  <img src="Dilawar.jpeg" class="h-100  object-fit-cover img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">Name:
+                    <span>Muhammad Dilawar</span>
+                  </div>
+                  <div class="card-body">Profile:
+                    <span>Full Stack Developter</span>
+                  </div>
+                  <div class="card-body">Email:
+                    <span>muhammaddilawar74@gmail.com</span>
+                  </div>
+                  <div class="card-body">Phone:
+                    <span>0315=87477388</span>
+                  </div>
+                </div>
+                <div class="mt-4 skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>HTML</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>CSS3</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>PHP</span> <span class="pull-right">50%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-me">
+              <div class="title-box-2">
+                <h5 class="title-left">
+                  About me
+                </h5>
+              </div>
+              <p class="lead">
+                Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor
+                at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                porttitor accumsan tincidunt.
+              </p>
+              <p class="lead">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                porttitor volutpat. Vestibulum
+                ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+              </p>
+              <p class="lead">
+                Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Nulla porttitor accumsan
+                tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICES SECTION -->
+  <section id="services" class="mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 pt-5 mb-5">
+          <h1>SERVICES</h1>
+          <P>Lorem ipsum ,dolor sit amet consectetur adipisicing elit</P>
+        </div>
+        <div class="col-4">
+          <div class="card d-flex justify-content-center align-items-center p-4"
+            style="width: 18rem;background-color: white;">
+            <span class="icon"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card d-flex justify-content-center align-items-center p-4"
+            style="width: 18rem;background-color: white;">
+            <span class="icon"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card d-flex justify-content-center align-items-center p-4"
+            style="width: 18rem;background-color: white;">
+            <span class="icon"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mt-5">
+          <div class="card d-flex justify-content-center align-items-center p-4"
+            style="width: 18rem;background-color: white;">
+            <span class="icon"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mt-5">
+          <div class="card d-flex justify-content-center align-items-center p-4"
+            style="width: 18rem;background-color: white;">
+            <span class="icon"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mt-5">
+          <div class="card d-flex justify-content-center align-items-center p-4"
+            style="width: 18rem;background-color: white;">
+            <span class="icon"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- COUNTER SECTION  -->
+  <section id="blu" class="align-items-center  parallaxe d-flex justify-content-center">
+    <div class="paralex-color"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="card d-flex justify-content-center align-items-center p-4 bg-transparent border-0 text-white">
+              <span class="icone"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+              <div class="align-items-center card-body d-flex flex-column justify-content-center">
+                <h5 class="card-title">450</h5>
+                <p class="card-text">Work Complet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card d-flex justify-content-center align-items-center p-4 bg-transparent border-0 text-white">
+              <span class="icone"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+              <div class="align-items-center card-body d-flex flex-column justify-content-center">
+                <h5 class="card-title">450</h5>
+                <p class="card-text">Work Complet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card d-flex justify-content-center align-items-center p-4 bg-transparent border-0 text-white">
+              <span class="icone"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+              <div class="align-items-center card-body d-flex flex-column justify-content-center">
+                <h5 class="card-title">450</h5>
+                <p class="card-text">Work Complet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card d-flex justify-content-center align-items-center p-4 bg-transparent border-0 text-white">
+              <span class="icone"><ion-icon size="large" name="chatbox-ellipses-outline"></ion-icon></span>
+              <div class="align-items-center card-body d-flex flex-column justify-content-center">
+                <h5 class="card-title">450</h5>
+                <p class="card-text">Work Complet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+  <!-- section portfolio -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 p-5">
+          <h1>PORTFOLIO</h1>
+          <P>Lorem ipsum ,dolor sit amet consectetur adipisicing elit</P>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="box">
+            <img src="work-1.jpg" />
+            <div class="p-5">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h6>Lorem impsum dolor</h6>
+                  <div class="w-more">
+                    <span>Web Design</span>/<span>18 Sep. 2018</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="box">
+            <img src="work-2.jpg" />
+            <div class="p-5">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h6>Lorem impsum dolor</h6>
+                  <div class="w-more">
+                    <span>Web Design</span>/<span>18 Sep. 2018</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="box">
+            <img src="work-3.jpg" />
+            <div class="p-5">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h6>Lorem impsum dolor</h6>
+                  <div class="w-more">
+                    <span>Web Design</span>/<span>18 Sep. 2018</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="box">
+            <img src="work-4.jpg" />
+            <div class="p-5">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h6>Lorem impsum dolor</h6>
+                  <div class="w-more">
+                    <span>Web Design</span>/<span>18 Sep. 2018</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="box">
+            <img src="work-5.jpg" />
+            <div class="p-5">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h6>Lorem impsum dolor</h6>
+                  <div class="w-more">
+                    <span>Web Design</span>/<span>18 Sep. 2018</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mb-5">
+          <div class="box">
+            <img src="work-6.jpg" />
+            <div class="p-5">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h6>Lorem impsum dolor</h6>
+                  <div class="w-more">
+                    <span>Web Design</span>/<span>18 Sep. 2018</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blu section -->
+  <section id="blusec parallaxe1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div style="width: 18rem;display: flex; flex-direction: column; align-items: center;">
+                  <img src="man1.jpg" class="card-img-top log" alt="...">
+                    <h1>mark</h1>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>XAVI ALONSO</h5>
+                  <p>Curabbitur arcu erat,accuman id imperdiet et, porttitor as sem. lorem ipsum dolor sit ament, conseterure adipiciling elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div style="width: 18rem; display: flex; flex-direction: column; align-items: center;">
+                  <img src="grils.webp" class="card-img-top log" alt="...">
+                    <h1>mark</h1>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MARTA SOCRATE</h5>
+                  <p>Curabbitur arcu erat,accuman id imperdiet et, porttitor as sem. lorem ipsum dolor sit ament, conseterure adipiciling elit.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog section -->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Blog
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="post-1.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Travel</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="man1.jpg" alt="" class="avatar rounded-circle">
+                  <span class="author">Morgan Freeman</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="bi bi-clock"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="post-2.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Design</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="man1.jpg" alt="" class="avatar rounded-circle">
+                  <span class="author">Morgan Freeman</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="bi bi-clock"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="blog-single.html"><img src="post-3.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Web Design</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <p class="card-description">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                a pellentesque nec,
+                egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="man1.jpg" alt="" class="avatar rounded-circle">
+                  <span class="author">Morgan Freeman</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="bi bi-clock"></span> 10 min
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+  <section id="contact" class="paralax-mf " style="background-image: url(wild1.jpg)">
+    <div class="paralex-color"></div>
+    <div class="container p-5  position-relative">
+      <div class="row">
+        <div class="col-sm-12">
+          <div>
+            <div id="contact" class="box-shadow-full bg-white p-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="pb-3 title-left">
+                      Send Message Us
+                    </h5>
+                  </div>
+                  <div>
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 text-center my-3">
+                          <div class="loading">Loading</div>
+                          <div class="error-message"></div>
+                          <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="pb-2 title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                      expedita aperiam aliquid at.
+                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                      mollitia inventore?
+                    </p>
+                    <ul style="list-style: none; padding: 0px;">
+                      <li style="padding: 5px;"><span><ion-icon name="location-outline" style="font-size: 25px;"></ion-icon></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                      <li style="padding: 5px;"><span><ion-icon name="phone-portrait-outline" style="font-size: 25px;"></ion-icon></span> (617) 557-0089</li>
+                      <li style="padding: 5px;"><span><ion-icon name="mail-outline"  style="font-size: 25px;"></ion-icon></span> contact@example.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul style="list-style: none; padding: 0px; display: flex; gap: 10px;">
+                      <li style="font-size: 30px; "><a href=""><span><ion-icon name="logo-facebook"></ion-icon></span></a></li>
+                      <li style="font-size: 30px;"><a href=""><span><ion-icon name="logo-instagram"></ion-icon></span></a></li>
+                      <li style="font-size: 30px;" ><a href=""><span><ion-icon name="notifications-circle-outline"></ion-icon></span></a></li>
+                      <li style="font-size: 30px;" ><a href=""><span><ion-icon name="logo-linkedin"></ion-icon></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+    new Typewriter('#typewriter', {
+      strings: ["WEB-DEVELOPER", "FREELANCER", "DESIGNER"],
+      autoStart: true,
+      loop: true
+    });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>

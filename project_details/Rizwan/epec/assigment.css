@@ -1,0 +1,183 @@
+.btn-outline-success{
+    background-color: rgb(143, 111, 69);
+}
+.dome button{
+    background-color: rgb(159, 113, 54);
+}
+.asdf{
+    margin-top: 40px;
+}
+#identi{
+background-color: azure;
+}
+button{
+    background-color: rgb(255, 136, 0);
+    color: rgb(224, 240, 254);
+    border-radius: 4px;
+}
+.manage{
+    margin-top: 50px;
+   
+}
+.mage{
+    margin-top: 20px;
+}
+.foxx{
+    margin-top: 40px; 
+}
+.baby_image{
+   text-align: center;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.build{
+    margin-top: 30px;
+}
+.card{
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px solid grey;
+    
+}
+.svg_wrapper{
+    height: 45px;
+    width: 45px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 36px;
+}
+.svg_wrapper svg{
+    height: 100px;
+    width: 100px;
+}
+.class{
+    margin-top: 100px;
+}
+/* .icon{
+   display: flex;
+   position: absolute;
+   left: 100px;
+} */
+.icon-wrapper{
+    text-align: right;
+    font-size: 45px;
+}
+.heading h3{
+    text-align: center;
+    margin-top: 50px;
+}
+/* .contain{
+    background-color: rgb(225, 241, 241);
+} */
+.card_wrapper{
+    position: relative;
+    height: 100%;
+}
+.topIcon{
+    position: absolute;
+    top: 55px;
+    left: 22px;
+    background-color: orange;
+    border-radius: 50%;
+    color: aliceblue;
+}
+.bottomIcon{
+    text-align: right;
+}
+.card-body h5{
+margin-top: 60px;
+}
+.asdf{
+    /* background-color: aliceblue; */
+    box-shadow: inset;
+}
+.soure{
+    text-align: center;
+}
+.found{
+    color: rgb(77, 165, 165);
+}
+.butt{
+    background-color: rgb(105, 105, 105);
+}
+.innnn{
+    margin-top: 50px;
+}
+.vain{
+    align-items: center;
+}
+/* .pan{
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+} */
+.name{
+    border-radius: 100%;
+    color:rgb(11, 10, 10);
+    background-color: rgb(164, 162, 158);
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    align-items: center;
+}
+.band{
+    
+}
+.pro{
+    color: aliceblue;
+}
+.ofsp{
+    text-align: center;
+    margin-top: 50px;
+}
+#ofsd{
+    background-color: rgb(40, 37, 37);
+}
+.baan{
+    background-color: orange;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: aliceblue;
+   /* padding-right: 10px;
+   padding-top: 30px; */
+}
+.tent{
+    background-color: rgb(222, 234, 245);
+    border-radius: 10px;
+    padding-bottom: 40px;
+    /* margin: auto; */
+}
+.rimi {
+    background-color: #fff;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    /* text-align: right; */
+}
+.box:hover{
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 5px 6px #00000014;
+}
+.retry{
+   position: absolute;
+   top: 20px;
+}

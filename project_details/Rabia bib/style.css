@@ -1,0 +1,122 @@
+a{
+        text-decoration: none;
+}
+
+.heading{
+        font-size: 15rem;
+}
+.nav{
+        padding: 1.5rem !important;
+        display: flex !important;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        padding: .5rem !important;
+        flex-wrap: nowrap;
+         justify-content: flex-start;
+         box-sizing: border-box;
+         display: block;
+         position: relative;
+}
+.stylo{
+        font-size: 25px;
+        color: black;
+}
+#testimonial{
+        padding: 20px;
+        display: flex;
+        --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.container{
+        padding: 40px;
+}
+#about{
+        margin-bottom: 30px;
+}
+#features{
+        margin-top: 40px;
+}
+#category{
+        margin-top: 20px;
+}
+.iconstyle{
+        font-size: 36px;
+       
+
+}
+.hov:hover{
+        background-color: rgb(80, 165, 87);
+}
+
+        
+        
+
+.category_icon{
+        font-size: 36px;
+        color:#4cc082 ;
+
+}
+.category_video{
+        font-size: 36px;
+        color:#e0e5eb ;
+
+}
+
+.category_video:hover{
+        font-size: 36px;
+        color:#2e76cf ;
+
+}
+
+
+.category_graphic{
+        
+        background-color:#e2f3f0;
+        transition: all 0.3s ease-in;
+
+
+}
+
+.category_graphic:hover{
+        color: white;
+        background-color:  #4cc082;
+        transition-delay: 0.3s;
+        transition: color 0.3s;
+
+
+}
+.category_graphic:hover .category_icon{
+        color: white;
+        transition-delay: 0.3s;
+        font-size: 36px;
+        color:#e2f3f0;
+        transition: color 0.3s;
+
+}
+.stars{
+        color: #4CC082;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titleHover{
+        color: black;
+}
+.titleHover:hover{
+        color: green;
+         transition: all 0.3s ease-in;
+}

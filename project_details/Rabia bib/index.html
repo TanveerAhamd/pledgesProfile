@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <title>Food</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4 ">
+    <div class="container-fluid">
+      <div class="main-logo d-lg-none">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" class="img-fluid">
+        </a>
+      </div>
+
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <div class="offcanvas-header mt-3">
+          <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body justify-content-between">
+          <div class="main-logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
+            </a>
+          </div>
+
+          <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link mx-2 active">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="pages"
+                data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+              <ul class="dropdown-menu" aria-labelledby="pages">
+                <li><a href="about.html" class="dropdown-item">About Us<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="instructors.html" class="dropdown-item">Instructors<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="cart.html" class="dropdown-item">Cart<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="wishlist.html" class="dropdown-item">Wishlist<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="checkout.html" class="dropdown-item">Checkout<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="price-plan.html" class="dropdown-item">Price Plan<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="contact.html" class="dropdown-item">Contact<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="faqs.html" class="dropdown-item">FAQs<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="account.html" class="dropdown-item">Account<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="thank-you.html" class="dropdown-item">Thankyou<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="error.html" class="dropdown-item">Error 404<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="styles.html" class="dropdown-item">Styles<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="courses"
+                data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+              <ul class="dropdown-menu" aria-labelledby="courses">
+                <li><a href="courses.html" class="dropdown-item">Course<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="courses-details.html" class="dropdown-item">Courses Detail<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="events"
+                data-bs-toggle="dropdown" aria-expanded="false">events</a>
+              <ul class="dropdown-menu" aria-labelledby="courses">
+                <li><a href="event.html" class="dropdown-item">event<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="event-details.html" class="dropdown-item">event details<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="blog"
+                data-bs-toggle="dropdown" aria-expanded="false">blog</a>
+              <ul class="dropdown-menu" aria-labelledby="blog">
+                <li><a href="blog.html" class="dropdown-item">blog<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="single-post.html" class="dropdown-item">single post<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="shop"
+                data-bs-toggle="dropdown" aria-expanded="false">shop</a>
+              <ul class="dropdown-menu" aria-labelledby="shop">
+                <li><a href="shop.html" class="dropdown-item">Shop<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+                <li><a href="single-product.html" class="dropdown-item">Single Product<span
+                      class="badge bg-secondary text-white ms-2">PRO</span></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link mx-2">contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://templatesjungle.gumroad.com/l/jubilee-free-bootstrap-5-html-website-template-for-online-course"
+                class="nav-link mx-2 text-decoration-underline" target="_blank">GET PRO</a>
+            </li>
+          </ul>
+
+          <div class="d-none d-lg-flex align-items-center">
+            <ul class="d-flex  align-items-center list-unstyled m-0">
+              <li>
+                <a href="account.html" class="ms-3">
+              <span class="stylo"><i class="ri-account-circle-line"></i></span>
+                   </a>
+              </li>
+              <li>
+                <a href="wishlist.html" class="ms-3">
+                  <span class="stylo"><i class="ri-heart-2-line"></i></span>
+                 </a>
+
+              </li>
+
+              <li class="">
+                <a href="#" class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
+                  aria-controls="offcanvasCart">
+                  <span class="stylo"><i class="ri-shopping-bag-line"></i></span>
+                   </a>
+
+              </li>
+
+              <li>
+                <a href="#" class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+                  aria-controls="offcanvasSearch">
+                  <span class="stylo"><i class="ri-search-line"></i></span>
+                   </a>
+
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid d-lg-none">
+      <div class="d-flex  align-items-end mt-3">
+        <ul class="d-flex  align-items-center list-unstyled m-0">
+          <li>
+            <a href="account.html" class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
+                <use href="#user-circle"></use>
+              </svg> </a>
+          </li>
+          <li>
+            <a href="wishlist.html" class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
+                <use href="#heart"></use>
+              </svg> </a>
+
+          </li>
+
+          <li class="">
+            <a href="#" class="me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
+              aria-controls="offcanvasCart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
+                <use href="#shopping-bag"></use>
+              </svg> </a>
+
+          </li>
+
+          <li>
+            <a href="#" class="me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch"
+              aria-controls="offcanvasSearch">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
+                <use href="#search"></use>
+              </svg> </a>
+
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="hero" style="background-color: blanchedalmond;">
+    <div class="container-fluid">
+      <div class="row align-item-center">
+        <div class="col-md-6 p-5  mt-6 mt-md-0">
+          <h2 class="display-1 text-uppercase"class="heading">master<br>
+             your skills<br>
+              onlin</h2>
+          <p class="fs-4 my-4 pb-2">online Courses Taught by indestry titans</p>
+          <div>
+            <form id="form" class="d-flex align-items-center position-relative ">
+              <input type="text" name="email" placeholder="what are you trying to learn?"
+                class="form-control bg-white border-0 rounded-4 shadow-none px-4 py-3 w-100">
+              <button class="btn btn-success rounded-4 px-3 py-2 position-absolute align-items-center m-1 end-0">
+                <i class="ri-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5">
+          <img src="images/billboard-img.jpg" alt="img" class="img-fluid">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="features">
+    <div class="feature-box container">
+      <div class="row ">
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
+          <div class="feature-item py-5  rounded-4">
+            <div class="feature-detail text-center">
+              <h2 class="feature-title">100+</h2>
+              <h6 class="feature-info text-uppercase">instructors</h6>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
+          <div class="feature-item py-5  rounded-4">
+            <div class="feature-detail text-center">
+              <h2 class="feature-title">500+</h2>
+              <h6 class="feature-info text-uppercase">courses</h6>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
+          <div class="feature-item py-5  rounded-4">
+            <div class="feature-detail text-center">
+              <h2 class="feature-title">free</h2>
+              <h6 class="feature-info text-uppercase">certifications</h6>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-5 mb-md-0">
+          <div class="feature-item py-5  rounded-4">
+            <div class="feature-detail text-center">
+              <h2 class="feature-title">2,000+</h2>
+              <h6 class="feature-info text-uppercase">happy members</h6>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="about" class="padding-medium mt-xl-5">
+    <div class="container">
+      <div class="row align-items-center mt-xl-5">
+        <div class="offset-md-1 col-md-5">
+          <img src="images/about-img.jpg" alt="img" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-5 mt-5 mt-md-0">
+          <div class="mb-3">
+            <p class="text-secondary ">Learn more about us</p>
+            <h2 class="display-6 fw-semibold">About Us</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestiae nam commodi dolore vitae?
+            Numquam minima cum asperiores deleniti possimus provident, officia itaque esse eius, delectus incidunt
+            laudantium adipisci laboriosam!</p>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            </svg>
+            <p class="ps-4">Engage with a worldwide community of inquisitive and imaginative individuals.</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
+          </div>
+          <a href="about.html" class="btn btn-warning px-5 py-3 mt-4">Learn more</a>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="category">
+    <div class="container ">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <div>
+          <p class="text-secondary  ">Pick your niche and get started</p>
+          <h2 class="display-6 fw-semibold">Popular Categories</h2>
+        </div>
+        <div class="mt-4 mt-md-0">
+          <a href="#" class="btn btn-success px-5 py-3">View all categories</a>
+        </div>
+      </div>
+      <div class="row g-md-3 mt-2">
+        <div class="col-md-4">
+          <div class="primary rounded-3 p-4 my-3 category_graphic">
+            <div class="d-flex align-items-center categry">
+              <span class="category_icon"> <i class="ri-edit-box-line icons"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Graphic Design</p>
+                <p class="category-paragraph m-0">39 courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="tertiary rounded-3 p-4 my-3" style="background-color: rgb(186, 232, 232);">
+            <div class="d-flex align-items-center">
+              <span class="iconstyle"> <i class="ri-volume-up-fill"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">SEO &amp; Marketing</p>
+                <p class="category-paragraph m-0">24 courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="secondary rounded-3 p-4 my-3" style="background-color: rgb(236, 220, 200);">
+            <div class="d-flex align-items-center">
+              <span class="iconstyle"> <i class="ri-shake-hands-line"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Business &amp; Finance</p>
+                <p class="category-paragraph m-0">16 courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="gray rounded-3 p-4 my-3 " style="background-color: rgb(188, 232, 217);">
+            <div class="d-flex align-items-center">
+              <span class="iconstyle"><i class="ri-camera-fill"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Video &amp; Photography</p>
+                <p class="category-paragraph m-0">39 courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="secondary rounded-3 p-4 my-3" style="background-color: rgb(183, 200, 215);">
+            <div class="d-flex align-items-center">
+              <span class="iconstyle"><i class="ri-macbook-line"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Computer Science</p>
+                <p class="category-paragraph m-0">16 courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="tertiary rounded-3 p-4 my-3" style="background-color: rgb(158, 208, 210);">
+            <div class="d-flex align-items-center">
+            <span class="iconstyle"><i class="ri-walk-line"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Health &amp; Fitness</p>
+                <p class="category-paragraph m-0">24 courses</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="tertiary rounded-3 p-4 my-3" style="background-color: rgb(187, 156, 187);">
+            <div class="d-flex align-items-center">
+              <span class="iconstyle"><i class="ri-edit-box-line"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">SEO &amp; Marketing</p>
+                <p class="category-paragraph m-0">24 courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="primary rounded-3 p-4 my-3" style="background-color: rgb(232, 213, 205);">
+            <div class="d-flex align-items-center">
+              <span class="iconstyle"><i class="ri-edit-box-line"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Graphic Design</p>
+                <p class="category-paragraph m-0">39 courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="gray rounded-3 p-4 my-3 hov" style="background-color: rgb(225, 190, 209);">
+            <div class="d-flex align-items-center">
+             <span class="iconstyle"><i class="ri-edit-box-line"></i></span>
+              <div class="ps-4">
+                <p class="category-paragraph fw-bold text-uppercase mb-1">Graphic Design</p>
+                <p class="category-paragraph m-0">39 courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="courses" class="padding-medium">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-secondary">Some of our most popular online courses</p>
+        <h2 class="display-6 fw-semibold">Explore Inspiring Online Courses</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="z-1 position-absolute m-4">
+            <span iconstyle class="badge text-white bg-secondary">New</span>
+          </div>
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item1.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title fw-semibold py-2 m-0 titleHover"><b>Mastering the Art of Digital Communication</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="z-1 position-absolute m-4">
+            <span class="badge text-white bg-danger">New</span>
+          </div>
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item2.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0 titleHover"><b>Web Wizardry 101: Mastering the Internet</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <!-- <div class="z-1 position-absolute m-4">
+                <span class="badge text-white bg-secondary">New</span>
+              </div> -->
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item3.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0 titleHover"><b>E-Learning Essentials: A Comprehensive Guide</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="z-1 position-absolute m-4">
+            <span class="badge text-white bg-danger">Sale</span>
+          </div>
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item4.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0 titleHover"><b>CyberClass 101: A Guide to Online Education</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                 <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <!-- <div class="z-1 position-absolute m-4">
+                <span class="badge text-white bg-secondary">New</span>
+              </div> -->
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item5.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0 titleHover"><b>Mastering the Art of Digital Communication</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="z-1 position-absolute m-4">
+            <span class="badge text-white bg-danger">New</span>
+          </div>
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item6.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0 titleHover"><b>Web Wizardry 101: Mastering the Internet</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <!-- <div class="z-1 position-absolute m-4">
+                <span class="badge text-white bg-secondary">New</span>
+              </div> -->
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item7.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0 titleHover"><b>E-Learning Essentials: A Comprehensive Guide</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="z-1 position-absolute m-4">
+            <span class="badge text-white bg-danger">Sale</span>
+          </div>
+          <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
+            <a href="courses-details.html"><img src="images/item8.jpg" class="img-fluid rounded-3" alt="image"></a>
+            <div class="card-body p-0">
+
+              <div class="d-flex justify-content-between my-3">
+                <p class="text-black-50 fw-bold text-uppercase m-0">Digital Marketing</p>
+                <div class="d-flex align-items-center">
+                  <svg width="20" height="20">
+                    <use xlink:href="#clock" class="text-black-50"></use>
+                  </svg>
+                  <p class="text-black-50 fw-bold text-uppercase m-0">1h 50m</p>
+                </div>
+              </div>
+
+              <a href="courses-details.html" class="text-dark">
+                <h5 class="course-title py-2 m-0  titleHover"><b>CyberClass 101: A Guide to Online Education</b></h5>
+              </a>
+
+              <div class="card-text">
+                <span class="rating d-flex align-items-center mt-3">
+                  <p class="text-muted fw-semibold m-0 me-2">By: James Willam</p>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                  <span  class="stars"><i class="ri-star-s-fill"></i></span>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="courses.html" class="btn btn-warning px-5 py-3">View all courses</a>
+      </div>
+
+    </div>
+  </section>
+  <section id="testimonial" class="padding-medium bg-primary-subtle">
+    <div class="container">
+      <div class="text-center mb-4">
+        <p class="text-secondary ">What our students say about us</p>
+        <h2 class="display-6 fw-semibold">Reviews</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="swiper-slide pe-md-5 swiper-slide-active" role="group" aria-label="1 / 5"
+            style="width: 282px; margin-right: 40px;">
+            <div class="my-4">
+              <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
+                ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
+                nunc sapien egestas at cursus. ”</p>
+              <div class="row">
+                <div class="col-3"> <img src="images/reviwer1.jpg" alt="img" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-9">
+                  <h5 class="m-0 mt-2">Recco Gracia</h5>
+                  <p class="text-muted">Web Developer</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="swiper-slide pe-md-5 swiper-slide-active" role="group" aria-label="1 / 5"
+            style="width: 282px; margin-right: 40px;">
+            <div class="my-4">
+              <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
+                ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
+                nunc sapien egestas at cursus. ”</p>
+              <div class="row">
+                <div class="col-3"> <img src="images/reviwer1.jpg" alt="img" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-9">
+                  <h5 class="m-0 mt-2">Recco Gracia</h5>
+                  <p class="text-muted">Web Developer</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="swiper-slide pe-md-5 swiper-slide-active" role="group" aria-label="1 / 5"
+            style="width: 282px; margin-right: 40px;">
+            <div class="my-4">
+              <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
+                ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
+                nunc sapien egestas at cursus. ”</p>
+              <div class="row">
+                <div class="col-3"> <img src="images/reviwer1.jpg" alt="img" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-9">
+                  <h5 class="m-0 mt-2">Recco Gracia</h5>
+                  <p class="text-muted">Web Developer</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+  </section>
+  <section id="teacher" class="padding-medium">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-secondary">Meet our popular teachers</p>
+        <h2 class="display-6 fw-semibold">Our Teachers</h2>
+      </div>
+
+      <div class="row">
+        <div class="col mb-5">
+          <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect rounded-3">
+              <img src="images/teacher1.jpg" class="img-fluid rounded-3" alt="image">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#facebook" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#twitter" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#instagram" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#linkedin" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body p-0">
+              <div class="text-center mt-3">
+                <p class="fw-bold m-0">Anila Lee</p>
+                <p class="text-secondary m-0">Art Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect rounded-3">
+              <img src="images/teacher2.jpg" class="img-fluid rounded-3" alt="image">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#facebook" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#twitter" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#instagram" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#linkedin" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body p-0">
+              <div class="text-center mt-3">
+                <p class="fw-bold m-0">Bruce Smith</p>
+                <p class="text-secondary m-0">Marketing Expert</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect rounded-3">
+              <img src="images/teacher3.jpg" class="img-fluid rounded-3" alt="image">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#facebook" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#twitter" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#instagram" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#linkedin" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body p-0">
+
+              <div class="text-center mt-3">
+                <p class="fw-bold m-0">Jack Nicholson</p>
+                <p class="text-secondary m-0">SEO Expert</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect rounded-3">
+              <img src="images/teacher4.jpg" class="img-fluid rounded-3" alt="image">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#facebook" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#twitter" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#instagram" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#linkedin" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body p-0">
+
+              <div class="text-center mt-3">
+                <p class="fw-bold m-0">Calvin Ian</p>
+                <p class="text-secondary m-0">Sales Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
+            <div class="image-holder zoom-effect rounded-3">
+              <img src="images/teacher5.jpg" class="img-fluid rounded-3" alt="image">
+              <ul class="social-links list-unstyled position-absolute">
+                <li>
+                  <a href="#">
+                    <svg class="facebook text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#facebook" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="twitter text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#twitter" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="instagram text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#instagram" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="linkedin text-dark" width="25" height="25" aria-hidden="true">
+                      <use xlink:href="#linkedin" class="text-white"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body p-0">
+
+              <div class="text-center mt-3">
+                <p class="fw-bold m-0">Milye Sam</p>
+                <p class="text-secondary m-0">Marketing Expert</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="points" class="padding-medium pt-0">
+    <div class="container">
+      <div class="text-center">
+        <p class="text-secondary ">What features we provide</p>
+        <h2 class="display-6 fw-semibold">Core Features</h2>
+      </div>
+      <div class="row align-items-center mt-5">
+        <div class="col-md-6 pe-md-5">
+
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Engage with a worldwide community of inquisitive and imaginative individuals.</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Engage with a worldwide community of inquisitive and imaginative individuals.</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
+          </div>
+
+        </div>
+        <div class="col-md-6 pe-md-5">
+
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Engage with a worldwide community of inquisitive and imaginative individuals.</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            </svg>
+            <p class="ps-4">Engage with a worldwide community of inquisitive and imaginative individuals.</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
+          </div>
+          <div class="d-flex">
+            <i class="ri-checkbox-circle-fill"></i>
+            <p class="ps-4">Learn a skill of your choice from the experts around the world from various industries</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="register" style="background-color: blanchedalmond;">
+    <div class="container padding-medium">
+      <div class="row align-items-center">
+        <div class="offset-md-1 col-md-5 ">
+          <div>
+            <h2 class="display-6 fw-semibold">Subscribe and get 20% OFF on your first online course </h2>
+            <p class="text-secondary ">Sign Up for our newsletter and never miss any offers</p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <form id="form">
+            <input type="email" name="email" placeholder="Write Your Email Address*"
+              class="form-control bg-white border-0 rounded-4 shadow-none rounded-pill text-center px-4 py-3 w-100 mb-4">
+            <div class="d-grid">
+              <button class="btn btn-success px-5 py-3"> Get Started now</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container padding-medium ">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 my-3">
+          <div class="footer-menu">
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
+            </a>
+            <div class="social-links mt-4">
+              <ul class="d-flex list-unstyled ">
+                <li class="me-4">
+                  <a href="#">
+                    <i class="ri-facebook-circle-fill"></i>
+                  </a>
+                </li>
+                <li class="me-4">
+                  <a href="#">
+                    <i class="ri-twitter-fill"></i>
+                  </a>
+                </li>
+                <li class="me-4">
+                  <a href="#">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                </li>
+                <li class="me-4">
+                  <a href="#">
+                    <i class="ri-linkedin-box-fill"></i>
+                  </a>
+                </li>
+                <li class="me-4">
+                  <a href="#">
+                    <i class="ri-youtube-fill"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2 my-3">
+          <div class="footer-menu">
+            <h5 class=" fw-bold mb-4">Quick Links</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Home</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">About us</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Courses</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Blogs</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2 my-3">
+          <div class="footer-menu">
+            <h5 class=" fw-bold mb-4">About</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">How It Works</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Pricing</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Promotion</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Affilation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2 my-3">
+          <div class="footer-menu">
+            <h5 class=" fw-bold mb-4">Help Center</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Payments</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">FAQs</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Checkout</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">Other</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2 my-3">
+          <div class="footer-menu">
+            <h5 class=" fw-bold mb-4">Contact Us</h5>
+            <ul class="menu-list list-unstyled">
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">contact@yourcompany</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">+110 4587 2445</a>
+              </li>
+              <li class="menu-item mb-2">
+                <a href="#" class="footer-link">New York, USA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="footer-bottom">
+    <hr class="text-black-50">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-md-6 copyright">
+          <p>© 2024 TemplatesJungle. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p>Free HTML Template by: <a href="https://templatesjungle.com/" target="_blank" class="fw-bold">
+              TemplatesJungle</a> Distributed by: <a href="https://themewagon.com" target="_blank" class="fw-bold">
+              ThemeWagon
+            </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

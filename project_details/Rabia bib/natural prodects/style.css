@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+span {
+    display: inline-block;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+}
+.nav_parent {
+    display: flex;
+    justify-content: space-between;
+}
+.navlist {
+    display: flex;
+}
+.nav_link {
+    margin-right: 10px;
+    padding: 5px 15px;
+    color: #000;
+}
+
+#header {
+    background-color: #fff3e3;
+}
+
+.heading_top {
+    font-size: 80px;
+    text-align: center;
+    padding: 30px 0;
+}
+.detail{
+    text-align: center;
+}
+.btntop{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border:1px solid  #f1ece6;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: #000;
+}
+.btntop1{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border:1px solid #f1c488;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-color: #f1c488;
+    color: #000;
+}
+.header_button{
+    text-align: center;
+    padding: 20px 0;
+}
+#body{
+    background-color: #fffdf8;
+}
+.nav_body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.body_heading{
+    font-family: 'Lobster Two', cursive;
+}
+.nav_detail{
+    font-family: 'Roboto', sans-serif;
+}
+.nav_heading{
+    margin-top: 80px;
+    padding-left: 30px;
+}
+.body_heading{
+    font-size: 30px;
+}
+.nav_detail{
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.btn2{
+    padding:10PX 20px; 
+    text-transform: uppercase;
+    border:1px solid  #f1c488;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #f1c488;
+    color: #000;
+}
+.body_img{
+   margin-top: 80px;
+   border-radius: 15px;
+}
+#figure{
+    background-color: #fffdf8;
+}
+
+.tag{
+    margin-top: 100px;
+    padding-left: 30px;
+}
+.heading_product{
+    margin-top: 25px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.product_detail{
+    margin-top: 15px;
+    padding-left: 30px;
+}
+.product_button{
+    padding-left: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;    
+}
+.body2{
+    display: flex;
+    gap: 15px;
+}
+.intro{
+    gap: 10px;
+}
+.heading_product{
+    font-size: 50px;
+}
+.btn3{
+  border: 1px solid #f1c488;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #f1c488;
+  color: #000;
+}
+.pro{
+    margin-top:70px ;
+    padding: 20;
+    text-align: center;
+    background-color: #fff8f3;
+    border: 1px solid white;
+}
+.btn4{
+    margin-top: 15px;
+    text-transform: uppercase;
+    border: 1px solid #f1ece6;
+    border-radius: 15px;
+    padding: 8px;
+    color:  #f1c488;
+    background-color: #f1ece6;
+}
+.pro_name{
+    margin-top: 15px;
+}
+.more{
+    margin-top: 15px;
+    
+}
+#more{
+    background-color: #fff3e3;
+    padding: 30px 0;
+}
+.title1{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+.tips{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.tip_img{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #f1c488;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1c488;
+    margin: 0 auto;
+    
+}
+.tip_name{
+    font-size: 23px;
+    margin-top: 28px;
+}
+#body4{
+    background-color: #fffdf8;
+    padding: 30px 0;
+}
+.more_products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn5{
+    font-size: 15px;
+    padding: 0px 15px;
+    border-radius: 10px;
+  
+}
+.our_pro{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.serum2{
+    border: 1px solid #f1c488;
+    background-color: #f1c488;
+}
+

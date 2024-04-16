@@ -1,0 +1,218 @@
+#typewriter {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .parallax {
+    min-height: 500px;
+    background-image: url("firstimg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxe {
+    min-height: 400px;
+    background-image: url("bgimg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .parallaxe1 {
+    min-height: 500px;
+    background-image: url("bgimg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+ 
+  .paralex-color{
+    background-color: #0078ff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+  }
+  .mb-3{
+    border: none !important;
+  }
+  #about{
+    background-color:#dee1e6;
+  }
+  #services{
+      text-align: center;
+      background-color:#dee1e6;
+      padding-bottom: 50px;
+  }
+  .icon{
+      width: 100px;
+      height: 100px;
+      border: 1px solid;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 0 10px #0078ff;
+      transition: all 500ms ease;
+  }
+  .icone{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 10px white;
+    }
+  .card:hover .icon{
+         background-color:#0078ff;
+         color: white;
+         box-shadow: 0 0 0 10px rgb(196, 218, 242);
+  }
+  #services .card{
+    box-shadow: 0px 1px 8px 9px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+  }
+  .box img  {
+    max-width: 100%;
+    transition: transform 2s ease;
+  }
+  .box:hover img {
+    transform: scale(1.4)
+  }
+  .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 4px;
+    overflow: hidden;
+  }
+  #blog{
+    margin-bottom: 20px;
+  }
+  .card-blog .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+}
+.card-blog .card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.card-blog .card-category {
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  overflow: hidden;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+.card-blog .card-body {
+  position: relative;
+}
+.card-footer {
+  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  color: var(--bs-card-cap-color);
+  background-color: var(--bs-card-cap-bg);
+  border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+.card-blog .post-author {
+  display: inline-block;
+}
+a {
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.card-blog .post-date {
+  color: #4e4e4e;
+  display: inline-block;
+  float: right;
+}
+.overlay-mf {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+.paralax-mf {
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.paralax-mf {
+  position: relative;
+ 
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.title-left {
+  font-size: 2rem;
+  position: relative;
+}
+.php-email-form button[type=submit] {
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+#blusec{
+  max-width: 100%;
+  border: 1px solid;
+}
+.img1{
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.mb-5 {
+  margin-bottom:0px !important;
+}
+.log{
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
